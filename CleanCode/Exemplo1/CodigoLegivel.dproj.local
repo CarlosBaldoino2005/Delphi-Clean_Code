@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2021/01/16 13:50:46.000.996,=C:\Users\thuli\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/03/27 13:38:03.000.251,=C:\Users\thuli\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2021/06/11 14:24:03.000.071,=C:\Users\thuli\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/07/09 14:07:43.304,=C:\Users\thuli\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/07/09 14:21:30.149,=C:\Users\thuli\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2021/07/09 14:21:50.860,C:\Users\thuli\Desktop\CleanCode\Exemplo1\Command.pas=C:\Users\thuli\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2021/07/09 14:21:56.029,C:\Users\thuli\Desktop\CleanCode\Exemplo1\Principal.dfm=C:\Users\thuli\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2021/07/09 14:21:56.029,C:\Users\thuli\Desktop\CleanCode\Exemplo1\Principal.pas=C:\Users\thuli\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/07/09 14:21:58.913,C:\Users\thuli\Desktop\CleanCode\Exemplo1\Project1.dproj=C:\Users\thuli\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2021/07/09 14:22:44.810,=C:\Users\thuli\Desktop\CleanCode\Exemplo1\Unit1.pas</Transaction>
+    <Transaction>2021/07/09 14:22:50.586,C:\Users\thuli\Desktop\CleanCode\Exemplo1\Interfaces.pas=C:\Users\thuli\Desktop\CleanCode\Exemplo1\Unit1.pas</Transaction>
+    <Transaction>2021/07/09 14:29:43.153,=C:\Users\thuli\Desktop\CleanCode\Exemplo1\Unit1.pas</Transaction>
+    <Transaction>2021/07/09 14:29:52.407,C:\Users\thuli\Desktop\CleanCode\Exemplo1\Command.Functions.Strings.pas=C:\Users\thuli\Desktop\CleanCode\Exemplo1\Unit1.pas</Transaction>
+    <Transaction>2021/07/09 23:05:45.118,C:\Users\thuli\Desktop\CleanCode\Exemplo1\CodigoLegivel.dproj=C:\Users\thuli\Desktop\CleanCode\Exemplo1\Project1.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

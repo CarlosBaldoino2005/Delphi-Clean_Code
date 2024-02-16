@@ -1,0 +1,64 @@
+unit Command;
+
+interface
+
+uses
+  Interfaces,
+  System.SysUtils,
+  System.Generics.Collections;
+
+type
+  TCommand = class(TInterfacedObject, iCommand)
+    private
+      FResolveString : String;
+      FListCommandsString : TList<TFunc<String, String>>;
+    public
+      constructor Create;
+      destructor Destroy; override;
+      class function New : iCommand;
+      function resolve (aValue : String ) : String;
+      function &then ( aValue : TFunc<string, string> ) : iCommand;
+  end;
+
+implementation
+
+uses
+  System.Classes;
+
+{ TCommand }
+
+function TCommand.&then(aValue: TFunc<string, string>): iCommand;
+begin
+  Result := Self;
+  FListCommandsString.Add(aValue);
+end;
+
+constructor TCommand.Create;
+begin
+  FListCommandsString := TList<TFunc<String, String>>.Create;
+end;
+
+destructor TCommand.Destroy;
+begin
+  FListCommandsString.Free;
+  inherited;
+end;
+
+class function TCommand.New: iCommand;
+begin
+  Result := Self.Create;
+end;
+
+function TCommand.resolve(aValue: String): String;
+var
+  I: Integer;
+begin
+  Result := Self;
+
+  for I := 0 to (FListCommandsString.Count) do
+    aValue := FListCommandsString[I](aValue);
+
+  FResolveString := aValue;
+end;
+
+end.

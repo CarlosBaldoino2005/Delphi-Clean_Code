@@ -1,0 +1,37 @@
+unit Command;
+
+interface
+
+uses
+  Interfaces;
+
+type
+  TCommand = class(TInterfacedObject, iCommand)
+    private
+    public
+      constructor Create;
+      destructor Destroy; override;
+      class function New : iCommand;
+  end;
+
+implementation
+
+{ TCommand }
+
+constructor TCommand.Create;
+begin
+
+end;
+
+destructor TCommand.Destroy;
+begin
+
+  inherited;
+end;
+
+class function TCommand.New: iCommand;
+begin
+  Result := Self.Create;
+end;
+
+end.
